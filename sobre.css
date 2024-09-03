@@ -1,0 +1,43 @@
+*{
+    background-color: grey;
+}
+.titulo img {
+    width: 60px;
+    height: 60px;
+    display: flex;  
+    flex-wrap: wrap; 
+    justify-content: center;
+    text-align: center;
+}
+
+.titulo{
+    width: 100%;
+    text-align: center;
+    display: flex;  
+    flex-wrap: wrap; 
+    text-align: center;
+    margin: 10px 37%  37%  10px,
+}
+.mosaico img{
+    margin: 10px;
+    width: 500px;
+    height: 300px;
+    border-radius: 30px;
+}
+.elenco img{
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 360px;
+}
+.imgtitulos{
+    display: flex; 
+    gap: 20px; 
+    flex-wrap: wrap; 
+    padding: 20px;
+    margin: 0 auto;
+}
+.quemsomos p{
+    font-size: medium;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
